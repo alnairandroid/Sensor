@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.overlaysensorapp">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <application
+        android:allowBackup="true"
+        android:label="OverlaySensorApp"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <service android:name=".OverlayService"
+            android:exported="false"/>
+    </application>
+</manifest>
